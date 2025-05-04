@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="icon" type="image" href="/public/sushi.png">
+        <link rel="icon" type="image" href="/sushi.png">
         <link rel="stylesheet" href="css/style.css">
         <title>Sushiman</title>
     </head>
@@ -12,10 +12,10 @@
         <header>
             <nav class="header__nav">
                 <div class="header__logo">
-                    <h4>Sushiman</h4>
+                    <h4 data-aos="fade-down">Sushiman</h4>
                     <div class="header__logo-overlay"></div>
                 </div>
-                <ul class="header__menu">
+                <ul class="header__menu" data-aos="fade-down">
                     <li><a href="#menu">Menu</a></li>
                     <li><a href="#food">Food</a></li>
                     <li><a href="#services">Services</a></li>
@@ -25,15 +25,16 @@
                     </li>
                 </ul>
 
-                <ul class="header__menu-mobile">
+                <ul class="header__menu-mobile" data-aos="fade-down">
                     <li><img src="assets/menu.svg" alt="menu"/></li>
                 </ul>
             </nav>
         </header>
+
         <section class="hero">
             <div class="hero-image">
-                <img src="assets/sushi-1.png" alt="sushi"/>
-                <h2>
+                <img src="assets/sushi-1.png" alt="sushi" data-aos="fade-up"/>
+                <h2 data-aos="fade-up">
                     番 <br/>
                     寿 <br/>
                     司
@@ -41,7 +42,7 @@
                 <div class="hero-image__overlay"></div>
             </div>
             <div class="hero-content">
-                <div class="hero-content-info">
+                <div class="hero-content-info" data-aos="fade-left">
                     <h1>Feel the taste of Japanese food</h1>
                     <p>Feel the taste of the most popilar Japanese food from anywhere and anytime.</p>
 
@@ -50,7 +51,7 @@
                         <button class="hero-content__play-button"><img src="assets/play-circle.svg" alt="play"/>How to Order</button>
                     </div>
                 </div>
-                <div class="hero-content__testimonial">
+                <div class="hero-content__testimonial" data-aos="fade-up">
                     <div class="hero-content__customer flex-center">
                         <h4>24<span>k+</span></h4>
                         <p>Happy Customers</p>
@@ -66,14 +67,14 @@
         <section class="about-us" id="about-us">
             <div class="about-us__image">
                 <div class="about-us__image-sushi3">
-                    <img src="assets/sushi-3.png" alt="sushi"/>
+                    <img src="assets/sushi-3.png" alt="sushi" data-aos="fade-right"/>
                 </div>
                 <button class="about-us__button">Learn More<img src="assets/arrow-up-right.svg" alt="learn more"/></button>
                 <div class="about-us__image-sushi2">
-                    <img src="assets/sushi-2.png" alt="sushi"/>
+                    <img src="assets/sushi-2.png" alt="sushi" data-aos="fade-right"/>
                 </div>
             </div>
-            <div class="about-us__content">
+            <div class="about-us__content" data-aos="fade-left">
                 <p class="sushi__subtitle">About Us /  私たちについて</p>
                 <h3 class="sushi__title">Our mission is to bring true Japanese flavours to you.</h3>
                 <p class="sushi__description">
@@ -84,8 +85,8 @@
         </section>
 
         <section class="popular-foods" id="menu">
-            <h2 class="popular-foods__title">Popular Food / 人気 </h2>
-            <div class="popular-foods__filters sushi__hide-scrollbar">
+            <h2 class="popular-foods__title" data-aos="flip-up">Popular Food / 人気 </h2>
+            <div class="popular-foods__filters sushi__hide-scrollbar" data-aos="fade-up">
                 <button class="popular-foods__filter-btn active">All</button>
                 <button class="popular-foods__filter-btn"><img src="/assets/sushi-9.png" alt="sushi 9"/>Sushi</button>
                 <button class="popular-foods__filter-btn"><img src="/assets/sushi-8.png" alt="sushi 8"/>Ramen</button>
@@ -93,7 +94,7 @@
                 <button class="popular-foods__filter-btn"><img src="/assets/sushi-6.png" alt="sushi 6"/>Danggo</button>
                 <button class="popular-foods__filter-btn">Others</button>
             </div>
-            <div class="popular-foods__catalogue">
+            <div class="popular-foods__catalogue" data-aos="fade-up">
                 <article class="popular-foods__card">
                     <img class="popular-foods__card-image" src="assets/sushi-12.png" alt="sushi-12"/>
                     <h4 class="popular-foods__card-title">Chezu Sushi</h4>
